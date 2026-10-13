@@ -9,4 +9,4 @@ def count_words(text):
 		else: 
 			counts[word] = 1 
 	return counts  
-print(count_words("Тест, тест! Баг."))
+print(count_words("Текст, текст, текст?, Текст!"))
