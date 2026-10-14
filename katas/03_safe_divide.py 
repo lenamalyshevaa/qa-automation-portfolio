@@ -1,0 +1,12 @@
+def safe_divide(a, b): 
+	try: 
+		return a/b
+	exept TypeError:
+		print('в делении нельзя использовать строки')
+		return None 
+	exept ZeroDivisionError: 
+		print('на ноль нельзя делить')
+		return None
+print(safe_divide(10, 2))      
+print(safe_divide("10", 2))
+print(safe_divide(7, 0)) 
