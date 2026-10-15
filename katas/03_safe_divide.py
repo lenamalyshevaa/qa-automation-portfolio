@@ -7,6 +7,8 @@ def safe_divide(a, b):
 	except ZeroDivisionError: 
 		print('на ноль делить нельзя')
 		return None 
+
+
 print(safe_divide(10, 2))    
 print(safe_divide("10", 2))
 print(safe_divide(7, 0)) 
