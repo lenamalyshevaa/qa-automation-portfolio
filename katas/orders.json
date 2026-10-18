@@ -1,0 +1,8 @@
+[
+    {"client": "Anna", "amount": 150},
+    {"client": "Boris", "amount": 300},
+    {"client": "Anna", "amount": 50},
+    {"client": "Vera", "amount": 120},
+    {"client": "Boris", "amount": 80},
+    {"client": "Anna", "amount": 200}
+]
