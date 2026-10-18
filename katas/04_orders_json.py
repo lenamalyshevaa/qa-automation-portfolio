@@ -14,11 +14,9 @@ def total_by_client(path):
         					c_sum[name] += amount 
 				else:
 						c_sum[name] = amount  
-			for client, amount in c_sum.items():
-				return(c_sum)
-	except:
-		print("Something went wrong when opening the filea")
+			return(c_sum)
+	except FileNotFoundError:
+		print("Something went wrong when opening file")
 		return None
-
-
 print(total_by_client("orders.json"))
+print(total_by_client("nope.json"))
