@@ -1,0 +1,8 @@
+2026-10-19 10:00:01 INFO Server started
+2026-10-19 10:00:05 INFO User login: anna
+2026-10-19 10:01:12 WARNING Slow response: 2.3s
+2026-10-19 10:02:40 ERROR Database connection lost
+2026-10-19 10:02:41 INFO Retrying connection
+2026-10-19 10:02:45 ERROR Database connection lost
+2026-10-19 10:03:00 INFO Connection restored
+
