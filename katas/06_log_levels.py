@@ -28,3 +28,4 @@ def count_levels(path):
         return counts
 
 count_levels("app.log")
+
